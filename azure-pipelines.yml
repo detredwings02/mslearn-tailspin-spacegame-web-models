@@ -40,5 +40,6 @@ steps:
   inputs:
     command: push
     feedListPublish: 'Tailspin.SpaceGame.Web.Models'
+    feedsToUse: 'select'
     allowPackageConflicts: true
   condition: succeeded()
